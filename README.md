@@ -1,10 +1,9 @@
 ## 设计思路
-框架采用python3 + selenium3 + PO + yaml + ddt + unittest等技术编写成基础测试框架，能适应日常测试工作需要。
+框架采用python3 + selenium3 + PO + yaml + Pytest + Airtest + Allure + Jenkins 等技术编写成基础测试框架，能适应日常测试工作需要。
 * 使用Page Object模式将页面定位和业务操作分开，分离测试对象（元素对象）和测试脚本（用例脚本），一个页面建一个对象类，提高用例的可维护性；
 * 使用yaml管理页面控件元素数据和测试用例数据。例如元素ID等发生变化时，不需要去修改测试代码，只需要在对应的页面元素yaml文件中修改即可；
 * 分模块管理，互不影响，随时组装，即拿即用。
 
-详见：[python_selenium自动化测试框架](https://www.cnblogs.com/yinjia/p/9503407.html)
 ## 测试框架分层设计
 ![Image](https://github.com/yingoja/DemoUI/blob/master/share/screeshots/frame.JPG)
 * 把常见的操作和查找封装成基础类，不管是什么产品，可直接拿来复用
