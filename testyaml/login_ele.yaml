@@ -1,0 +1,11 @@
+搜索框:
+  dec: 登录
+  type: XPATH
+  element: //input[@id='kw']
+  operate: click
+
+百度一下按钮:
+  dec: 百度一下搜索按钮
+  type: XPATH
+  element: //input[@id='su']
+  operate: click

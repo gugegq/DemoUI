@@ -1,0 +1,54 @@
+{
+  "uid" : "80dd8611fbbecf7",
+  "name" : "test_demo_01",
+  "fullName" : "testcase.test_demo.Test_demo#test_demo_01",
+  "historyId" : "ff1ceb11cf154398d117982029a89ca5",
+  "time" : {
+    "start" : 1626524380532,
+    "stop" : 1626524387366,
+    "duration" : 6834
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_demo"
+  }, {
+    "name" : "host",
+    "value" : "gugepc"
+  }, {
+    "name" : "thread",
+    "value" : "3832-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "80dd8611fbbecf7.json",
+  "parameterValues" : [ ]
+}

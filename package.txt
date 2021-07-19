@@ -1,0 +1,14 @@
+pocoui
+poco
+airtest
+pytest
+sugar
+pytest-rerunfailures
+pytest-xdist
+pytest-html
+pytest-repeat
+pyyaml
+allure-pytest
+airtest_selenium=1.0.3
+pynput
+mail
