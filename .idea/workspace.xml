@@ -1,95 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e9e4b8b-afae-4ada-8479-aa8da57c3646" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/WebUI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/base/baseActions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/base/baseLogin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/common/Browser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/data/behaviors.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/data/behaviors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/data/categories.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/data/categories.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/data/packages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/data/suites.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/data/suites.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/data/test-cases/29453340c1e5bc49.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/data/test-cases/80dd8611fbbecf7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/data/timeline.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/export/influxDbData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/export/mail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/export/prometheusData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/history/categories-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/history/duration-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/history/history-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/history/history.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/history/retry-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/plugins/behaviors/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/plugins/packages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/plugins/screen-diff/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/plugins/screen-diff/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/widgets/behaviors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/widgets/categories-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/widgets/categories.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/widgets/duration-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/widgets/duration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/widgets/environment.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/widgets/executors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/widgets/history-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/widgets/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/widgets/retry-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/widgets/severity.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/widgets/status-chart.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/widgets/suites.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/widgets/summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/result/5509aaee-3d04-4667-bbb3-f0e2ce78b0cd-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/result/60bffd12-a258-4103-b150-1b0abf34cabf-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/test_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testyaml/login_ele.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/setting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/user.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/conf.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/HTMLTestRunner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/models/GetYaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/common/GetYaml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/models/driver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/models/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/common/log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/models/myunit.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/models/newReport.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/models/screenshot.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/common/screenshot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/models/sendmail.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/common/sendmail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page_obj/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/base/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page_obj/loginPage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page_obj/setupPage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/2019-01-24 00_03_09result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/2019-01-24 23_18_07result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/2019-01-28 01_20_25result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/screenshot/name_empty.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/screenshot/name_sign_success.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/screenshot/pawd_empty.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/screenshot/pawd_error.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/screenshot/phone_empty.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/screenshot/phone_error.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/screenshot/phone_pawd_empty.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/screenshot/phone_pawd_success.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_demoui_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/login_sta.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/setup_sta.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/login_data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testdata/login_data.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testyaml/login.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testyaml/setup.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testyaml/setup_ele.yaml" afterDir="false" />
+    <list default="true" id="5e9e4b8b-afae-4ada-8479-aa8da57c3646" name="Default Changelist" comment="init commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -139,27 +58,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.pytest for test_demo.Test_demo">
-    <configuration name="Browser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="WebUI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public/common/Browser.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WebUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,6 +116,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_demo.Test_demo.test_demo_01" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="WebUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_demo.Test_demo.test_demo_01&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in test_demo.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="WebUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,10 +151,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_demo.Test_demo" />
-        <item itemvalue="Python.run" />
+        <item itemvalue="Python tests.pytest for test_demo.Test_demo.test_demo_01" />
         <item itemvalue="Python tests.pytest in test_demo.py" />
+        <item itemvalue="Python.run" />
         <item itemvalue="Python.conftest" />
-        <item itemvalue="Python.Browser" />
       </list>
     </recent_temporary>
   </component>
@@ -253,6 +167,14 @@
       <option name="presentableId" value="Default" />
       <updated>1624284331569</updated>
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1626704550930</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626704550930</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,5 +188,35 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcase/test_demo.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcase/test_demo.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcase/test_demo.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcase/test_demo.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
