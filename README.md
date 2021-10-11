@@ -29,3 +29,7 @@
 ![Image](https://github.com/yingoja/DemoUI/blob/master/share/screeshots/jietu.JPG)
 * 邮件测试报告
 ![Image](https://github.com/yingoja/DemoUI/blob/master/share/screeshots/mail.JPG)
+
+## 常用工具下载地址
+chromedriver.exe
+http://npm.taobao.org/mirrors/chromedriver/
