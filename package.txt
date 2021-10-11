@@ -9,6 +9,6 @@ pytest-html
 pytest-repeat
 pyyaml
 allure-pytest
-airtest_selenium=1.0.3
+airtest_selenium
 pynput
 mail
