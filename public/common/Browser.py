@@ -30,10 +30,10 @@ class browser:
         """
         self.driver.quit()
 
-# '''
-# 调试代码用，可注销
-# '''
-# if __name__ == '__main__':
-#     br = browser()
-#     br.open_browser("http://www.baidu.com")
+'''
+调试代码用，可注销
+'''
+if __name__ == '__main__':
+    br = browser()
+    br.open_browser("https://b2b4tcsdev-plmcomm.cs19.force.com/MarketPlace/SpHomePagee")
 

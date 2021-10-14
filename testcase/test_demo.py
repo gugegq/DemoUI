@@ -20,10 +20,10 @@ class Test_demo:
     #     self.logging = Log()
 
     def test_demo_01(self):
-        Browser.browser().open_browser("http://www.baidu.com")
+        Browser.browser().open_browser("https://b2b4tcsdev-plmcomm.cs19.force.com/MarketPlace/SpHomePagee")
         print("\n----------------------------Demo----------------------------")
         self.driver.implicitly_wait(5)
         self.logging.info("输入搜索内容")
-        self.driver.find_element(By.XPATH, setting.ele_百度首页['搜索框']['element']).send_keys("AIRTEST")
-        self.logging.info("点击 百度一下 按钮")
-        self.driver.find_element(By.XPATH, setting.ele_百度首页['百度一下按钮']['element']).click
+        # self.driver.find_element(By.XPATH, setting.ele_百度首页['搜索框']['element']).send_keys("AIRTEST")
+        # self.logging.info("点击 百度一下 按钮")
+        # self.driver.find_element(By.XPATH, setting.ele_百度首页['百度一下按钮']['element']).click

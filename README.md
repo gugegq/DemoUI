@@ -31,5 +31,6 @@
 ![Image](https://github.com/yingoja/DemoUI/blob/master/share/screeshots/mail.JPG)
 
 ## 常用工具下载地址
-chromedriver.exe
+1. chromedriver.exe
 http://npm.taobao.org/mirrors/chromedriver/
+2. 
