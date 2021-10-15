@@ -12,3 +12,4 @@ allure-pytest
 airtest_selenium
 pynput
 mail
+pywin32

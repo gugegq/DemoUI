@@ -15,10 +15,6 @@ from public.common.log import Log
 
 class Test_demo:
 
-    # def __init__(self):
-    #     self.driver = Browser.driver
-    #     self.logging = Log()
-
     def test_demo_01(self):
         Browser.browser().open_browser("https://b2b4tcsdev-plmcomm.cs19.force.com/MarketPlace/SpHomePagee")
         print("\n----------------------------Demo----------------------------")
