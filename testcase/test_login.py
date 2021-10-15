@@ -2,7 +2,7 @@
 # _*_ coding:utf-8 _*_
 __author__ = 'GuQiao'
 
-import os,sys
+import os, sys
 import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
@@ -43,6 +43,10 @@ class WinAuto:
             expected_conditions.visibility_of_element_located((By.XPATH, "//button[contains(.,\'Add New Product\')]")))
         self.driver.find_element(By.XPATH, "//button[contains(.,\'Add New Product\')]").click()
         self.driver.find_element(By.XPATH, "//span[contains(.,\'Upload Files\')]").click()
+        time.sleep(3)
+        # 直接传输文件
+        self.driver.find_element(By.ID, "input-file-19").send_keys(filepath)
+        time.sleep(10)
 
     def get_window(self, window_object, class_name = "", title_re = ""):
         return window_object.window(class_name = class_name, title_re = title_re)
@@ -114,8 +118,9 @@ class WinAuto:
 
 if __name__ == '__main__':
     window = WinAuto("#32770", "Open")
-    window.file_input(filepath)
-    window.open_button_click()
+    window.loginMarketPlace(url_mkp)
+    # window.file_input(filepath)
+    # window.open_button_click()
 
 
 
