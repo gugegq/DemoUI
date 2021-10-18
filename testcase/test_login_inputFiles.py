@@ -9,6 +9,7 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from pywinauto.application import Application
 from public.common import Browser
+from public.base.upload_files import upload_files
 
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
@@ -47,12 +48,14 @@ class InputFiles:
         # WebDriverWait(self.driver, 30).until(
         #     expected_conditions.visibility_of_element_located((By.ID, "input-file-19")))
         # self.driver.find_element(By.ID, "input-file-19").send_keys(filepath)
-        # 方法二：调用pywinauto第三方库，模拟windows窗口操作
-        app = Application()  # 实例化Application
-        # 这里用的class而没有加窗口title，主要为了保证兼容性
-        app.connect(class_name='#32770')  # 根据class_name找到弹出窗口
-        app["Dialog"]["Edit1"].TypeKeys(filepath)  # 在输入框中输入值
-        app["Dialog"]["Button1"].click()  # 点击打开/保存按钮
+        # # 方法二：调用pywinauto第三方库，模拟windows窗口操作
+        # app = Application()  # 实例化Application
+        # # 这里用的class而没有加窗口title，主要为了保证兼容性
+        # app.connect(class_name='#32770')  # 根据class_name找到弹出窗口
+        # app["Dialog"]["Edit1"].TypeKeys(filepath)  # 在输入框中输入值
+        # app["Dialog"]["Button1"].click()  # 点击打开/保存按钮
+        upload_files("#32770", filepath)
+
         time.sleep(5)
         self.driver.quit()
 

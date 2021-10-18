@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e9e4b8b-afae-4ada-8479-aa8da57c3646" name="Default Changelist" comment="WinAuto DONE">
+    <list default="true" id="5e9e4b8b-afae-4ada-8479-aa8da57c3646" name="Default Changelist" comment="WinAuto completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcase/test_login_inputFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_login_inputFiles.py" afterDir="false" />
     </list>
@@ -91,16 +91,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_login_inputFiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_login_inputFiles" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="WebUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\qiagu42q\AppData\Local\Programs\Python\Python39\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/test_login_inputFiles.py" />
@@ -176,9 +176,16 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.test_login_inputFiles" />
+      <item itemvalue="Python.test_login" />
+      <item itemvalue="Python tests.pytest for test_demo.Test_demo" />
+      <item itemvalue="Python tests.pytest for test_login.TestLogin" />
+      <item itemvalue="Python tests.pytest for test_login.TestLogin.test_loginMarketPlace" />
+      <item itemvalue="Python tests.pytest in test_login.py" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_login_inputFiles" />
         <item itemvalue="Python.test_login" />
         <item itemvalue="Python tests.pytest in test_login.py" />
         <item itemvalue="Python tests.pytest for test_login.TestLogin.test_loginMarketPlace" />
@@ -251,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634286203634</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="WinAuto completed">
+      <created>1634521466802</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1634521466803</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,7 +289,8 @@
     <MESSAGE value="add test_login.py" />
     <MESSAGE value="WinAuto Added" />
     <MESSAGE value="WinAuto DONE" />
-    <option name="LAST_COMMIT_MESSAGE" value="WinAuto DONE" />
+    <MESSAGE value="WinAuto completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="WinAuto completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -331,34 +346,59 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/testcase/test_login_inputFiles.py</url>
-          <line>55</line>
-          <option name="timeStamp" value="35" />
+          <url>file://$PROJECT_DIR$/public/base/upload_files.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/public/base/upload_files.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/public/base/upload_files.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/public/base/upload_files.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/testcase/test_login_inputFiles.py</url>
-          <line>56</line>
-          <option name="timeStamp" value="36" />
+          <line>34</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/testcase/test_login_inputFiles.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="39" />
+          <line>35</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/testcase/test_login_inputFiles.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="40" />
+          <line>36</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/testcase/test_login_inputFiles.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="41" />
+          <line>37</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/testcase/test_login_inputFiles.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="42" />
+          <line>38</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcase/test_login_inputFiles.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcase/test_login_inputFiles.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
