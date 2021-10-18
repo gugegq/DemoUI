@@ -42,17 +42,17 @@ class InputFiles:
         self.driver.find_element(By.XPATH, "//button[contains(.,\'Add New Product\')]").click()
         self.driver.find_element(By.XPATH, "//span[contains(.,\'Upload Files\')]").click()
         time.sleep(3) # 需要稍作等待，因为点击上传按钮到文件选择窗口打开会有延迟
-        # 方法一：标准html的input格式，直接调用send_keys方法
-        # 直接传输文件
-        WebDriverWait(self.driver, 3).until(
-            expected_conditions.visibility_of_element_located((By.ID, "input-file-19")))
-        self.driver.find_element(By.ID, "input-file-19").send_keys(filepath)
-        # # 方法二：调用pywinauto第三方库，模拟windows窗口操作
-        # app = Application()  # 实例化Application
-        # # 这里用的class而没有加窗口title，主要为了保证兼容性
-        # app.connect(class_name='#32770')  # 根据class_name找到弹出窗口
-        # app["Dialog"]["Edit1"].TypeKeys(filepath)  # 在输入框中输入值
-        # app["Dialog"]["Button1"].click()  # 点击打开/保存按钮
+        # # 方法一：标准html的input格式，直接调用send_keys方法
+        # # 直接传输文件
+        # WebDriverWait(self.driver, 30).until(
+        #     expected_conditions.visibility_of_element_located((By.ID, "input-file-19")))
+        # self.driver.find_element(By.ID, "input-file-19").send_keys(filepath)
+        # 方法二：调用pywinauto第三方库，模拟windows窗口操作
+        app = Application()  # 实例化Application
+        # 这里用的class而没有加窗口title，主要为了保证兼容性
+        app.connect(class_name='#32770')  # 根据class_name找到弹出窗口
+        app["Dialog"]["Edit1"].TypeKeys(filepath)  # 在输入框中输入值
+        app["Dialog"]["Button1"].click()  # 点击打开/保存按钮
         time.sleep(5)
         self.driver.quit()
 

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e9e4b8b-afae-4ada-8479-aa8da57c3646" name="Default Changelist" comment="WinAuto Added">
-      <change afterPath="$PROJECT_DIR$/testcase/test_login_inputFiles.py" afterDir="false" />
+    <list default="true" id="5e9e4b8b-afae-4ada-8479-aa8da57c3646" name="Default Changelist" comment="WinAuto DONE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test_login_inputFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_login_inputFiles.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/testcase" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -245,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634280004430</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="WinAuto DONE">
+      <created>1634286203634</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1634286203634</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,7 +274,8 @@
     <MESSAGE value="add new +++" />
     <MESSAGE value="add test_login.py" />
     <MESSAGE value="WinAuto Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="WinAuto Added" />
+    <MESSAGE value="WinAuto DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="WinAuto DONE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -347,6 +354,11 @@
           <url>file://$PROJECT_DIR$/testcase/test_login_inputFiles.py</url>
           <line>39</line>
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcase/test_login_inputFiles.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
