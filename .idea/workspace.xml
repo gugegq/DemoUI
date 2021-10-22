@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e9e4b8b-afae-4ada-8479-aa8da57c3646" name="Default Changelist" comment="WinAuto completed">
+    <list default="true" id="5e9e4b8b-afae-4ada-8479-aa8da57c3646" name="Default Changelist" comment="modified names">
+      <change afterPath="$PROJECT_DIR$/testcase/test_win32UpFiles.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/WebUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WebUI.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/conf.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/conf.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/base/baseLogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/base/baseLogin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/test_login_inputFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_login_inputFiles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/common/Browser.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/common/Browser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test01_uploadFiles.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,28 @@
       <recent name="C:\PycharmProjects\DemoUI\testcase" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_login_inputFiles">
+  <component name="RunManager" selected="Python.test_win32UpFiles">
+    <configuration name="Browser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WebUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public/common/Browser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test02_uploadFiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WebUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,45 +109,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/test02_uploadFiles.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="WebUI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/test_login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_login_inputFiles" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="WebUI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Users\qiagu42q\AppData\Local\Programs\Python\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/test_login_inputFiles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,21 +138,49 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_login_inputFiles.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="test_win32UpFiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WebUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/test_login_inputFiles.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="D:\PycharmProjects\DemoUI\testcase\test_win32UpFiles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_pywinauto.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="test_win32UpFiles" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="WebUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\qiagu42q\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\PycharmProjects\DemoUI\testcase\test_win32UpFiles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_win32UpFiles.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="WebUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,7 +190,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/test_pywinauto.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/test_win32UpFiles.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -201,21 +211,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test_login_inputFiles" />
-      <item itemvalue="Python.test_login" />
       <item itemvalue="Python.test_pywinauto" />
       <item itemvalue="Python.test02_uploadFiles" />
+      <item itemvalue="Python.Browser" />
       <item itemvalue="Python tests.pytest for test_demo.Test_demo" />
-      <item itemvalue="Python tests.Python tests in test_pywinauto.py" />
-      <item itemvalue="Python tests.Python tests in test_login_inputFiles.py" />
+      <item itemvalue="Python.test_win32UpFiles" />
+      <item itemvalue="Python tests.Python tests in test_win32UpFiles.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_login_inputFiles.py" />
+        <item itemvalue="Python.test_win32UpFiles" />
+        <item itemvalue="Python.Browser" />
+        <item itemvalue="Python tests.Python tests in test_win32UpFiles.py" />
         <item itemvalue="Python.test02_uploadFiles" />
         <item itemvalue="Python.test_pywinauto" />
-        <item itemvalue="Python tests.Python tests in test_pywinauto.py" />
-        <item itemvalue="Python.test_login" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +300,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634521466803</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added something">
+      <created>1634873992882</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1634873992882</updated>
+    </task>
+    <task id="LOCAL-00011" summary="modified names">
+      <created>1634878718557</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1634878718557</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,7 +339,9 @@
     <MESSAGE value="WinAuto Added" />
     <MESSAGE value="WinAuto DONE" />
     <MESSAGE value="WinAuto completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="WinAuto completed" />
+    <MESSAGE value="added something" />
+    <MESSAGE value="modified names" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified names" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -387,29 +412,19 @@
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/testcase/test_login_inputFiles.py</url>
-          <line>33</line>
+          <url>file://$PROJECT_DIR$/testcase/test_win32UpFiles.py</url>
+          <line>36</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/testcase/test_login_inputFiles.py</url>
-          <line>35</line>
+          <url>file://$PROJECT_DIR$/testcase/test_win32UpFiles.py</url>
+          <line>38</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/testcase/test_login_inputFiles.py</url>
-          <line>36</line>
+          <url>file://$PROJECT_DIR$/testcase/test_win32UpFiles.py</url>
+          <line>39</line>
           <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/testcase/test_login_inputFiles.py</url>
-          <line>40</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/testcase/test_login_inputFiles.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/testcase/test02_uploadFiles.py</url>
@@ -447,14 +462,39 @@
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/testcase/test_login_inputFiles.py</url>
-          <line>52</line>
+          <url>file://$PROJECT_DIR$/testcase/test_win32UpFiles.py</url>
+          <line>76</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/testcase/test_login_inputFiles.py</url>
-          <line>32</line>
+          <url>file://$PROJECT_DIR$/testcase/test_win32UpFiles.py</url>
+          <line>35</line>
           <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcase/test_win32UpFiles.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcase/test_win32UpFiles.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcase/test_win32UpFiles.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcase/test_win32UpFiles.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcase/test_win32UpFiles.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
