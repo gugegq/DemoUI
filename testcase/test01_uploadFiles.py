@@ -19,33 +19,33 @@ url_mkp = "https://b2b4tcsdev-plmcomm.cs19.force.com/MarketPlace/s/"
 
 class testInputFiles:
 
-    def __init__(self):
-        # 初始化driver
-        self.driver = Browser.driver
+    # def __init__(self):
+    #     # 初始化driver
+    #     Browser.driver = Browser.driver
 
     def loginMarketPlace(self, url):
-        self.driver.get(url)
+        Browser.driver.get(url)
         print("\n----------------------------Login into MarketPlace----------------------------")
-        self.driver.maximize_window()
-        # self.driver.implicitly_wait(5)
+        Browser.driver.maximize_window()
+        # Browser.driver.implicitly_wait(5)
         # Browser.driver.set_window_size(1552, 848)
         time.sleep(5)
-        self.driver.find_element(By.ID, "username").clear()
-        self.driver.find_element(By.ID, "username").send_keys("demouser01@yopmail.com")
-        self.driver.find_element(By.ID, "password").clear()
-        self.driver.find_element(By.ID, "password").send_keys("Password1")
-        self.driver.find_element(By.ID, "submit").click()
+        Browser.driver.find_element(By.ID, "username").clear()
+        Browser.driver.find_element(By.ID, "username").send_keys("demouser01@yopmail.com")
+        Browser.driver.find_element(By.ID, "password").clear()
+        Browser.driver.find_element(By.ID, "password").send_keys("Password1")
+        Browser.driver.find_element(By.ID, "submit").click()
         time.sleep(5)
-        WebDriverWait(self.driver, 3).until(
+        WebDriverWait(Browser.driver, 3).until(
             expected_conditions.visibility_of_element_located((By.XPATH, "//button[contains(.,\'Add New Product\')]")))
-        self.driver.find_element(By.XPATH, "//button[contains(.,\'Add New Product\')]").click()
-        self.driver.find_element(By.XPATH, "//span[contains(.,\'Upload Files\')]").click()
+        Browser.driver.find_element(By.XPATH, "//button[contains(.,\'Add New Product\')]").click()
+        Browser.driver.find_element(By.XPATH, "//span[contains(.,\'Upload Files\')]").click()
         time.sleep(3) # 需要稍作等待，因为点击上传按钮到文件选择窗口打开会有延迟
         # # 方法一：标准html的input格式，直接调用send_keys方法
         # # 直接传输文件
-        # WebDriverWait(self.driver, 30).until(
+        # WebDriverWait(Browser.driver, 30).until(
         #     expected_conditions.visibility_of_element_located((By.ID, "input-file-19")))
-        # self.driver.find_element(By.ID, "input-file-19").send_keys(filepath)
+        # Browser.driver.find_element(By.ID, "input-file-19").send_keys(filepath)
         # 方法二：调用pywinauto第三方库，模拟windows窗口操作
         app = Application()  # 实例化Application
         time.sleep(3) # 需要稍作等待，因为点击上传按钮到文件选择窗口打开会有延迟
@@ -56,7 +56,7 @@ class testInputFiles:
         # upload_files("#32770", filepath)
 
         time.sleep(5)
-        self.driver.quit()
+        Browser.driver.quit()
 
 if __name__ == '__main__':
     test = testInputFiles()
