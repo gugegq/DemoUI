@@ -13,7 +13,11 @@ class baseLogin:
 
     def base_login(self):
         self.driver.maximize_window()
-        self.driver.get("https://b2b4tcsdev-plmcomm.cs19.force.com/MarketPlace/s/")
+        self.driver.get("https://www.baidu.com")
+        # driver.implicitly_wait(5)
+        value = self.driver.title
+        print(value)
+        assert value in "百度一下，你就知道啊"
         time.sleep(10)
 
     def open_url(self,url):
